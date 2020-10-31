@@ -197,56 +197,6 @@ def B2fun(top):
     c_menu_window.resizable(FALSE,FALSE)
     c_menu_window.mainloop()
 ################################################################################################################################
-#defination of B3(SUPPLIER MENU)
-'''def B3fun():
-    s_menu_window = Tk()
-    s_menu_window.geometry('350x200')
-    s_menu_window.title("Pharmacy Management Software")
-    def destroy():
-        c_menu_window.destroy()
-    lbl = Label(s_menu_window, text="Supplier Menu!")
-    lbl.grid(column=0, row=0)
-    lbl2 = Label(s_menu_window, text="What would you like to do!")
-    lbl2.grid(column=0, row=1)
-    btn1 = Button(s_menu_window, text="Search Supplier",fg="red", command=mclickedbtn1)
-    btn1.grid(column=0, row=2)
-    btn2 = Button(s_menu_window, text="New Supplier",fg="red", command=mclickedbtn2)
-    btn2.grid(column=0, row=3)
-    btn3 = Button(s_menu_window, text="Update Supplier Info",fg="red", command=mclickedbtn3)
-    btn3.grid(column=0, row=4)
-    btn4 = Button(s_menu_window, text="Return to main menu",fg="red", command=destroy)
-    btn4.grid(column=0, row=5)
-    s_menu_window.mainloop()
-    '''
-
-
-#################################################################################################################################
-#defnination of B4(PATIENT DATABASE)
-'''def B4fun():
-    r_menu_window = Tk()
-    r_menu_window.geometry('350x200')
-    r_menu_window.title("Pharmacy Management Software")
-    def destroy():
-        c_menu_window.destroy()
-    lbl = Label(r_menu_window, text="Patient Menu!")
-    lbl.grid(column=0, row=0)
-    lbl2 = Label(r_menu_window, text="What would you like to do!")
-    lbl2.grid(column=0, row=1)
-    btn1 = Button(r_menu_window, text="New Patient",fg="red", command=mclickedbtn1)
-    btn1.grid(column=0, row=2)
-    btn2 = Button(r_menu_window, text="Discharge patient",fg="red", command=mclickedbtn2)
-    btn2.grid(column=0, row=3)
-    btn3 = Button(r_menu_window, text="Number of beds Available",fg="red", command=mclickedbtn3)
-    btn3.grid(column=0, row=4)
-    btn3 = Button(r_menu_window, text="Total ammout to be paid",fg="red", command=mclickedbtn3)
-    btn3.grid(column=0, row=5)
-    btn3 = Button(r_menu_window, text="Profit Report",fg="red", command=mclickedbtn3)
-    btn3.grid(column=0, row=6)
-    btn4 = Button(r_menu_window, text="Return to main menu",fg="red", command=destroy)
-    btn4.grid(column=0, row=7)
-    r_menu_window.mainloop()
-    '''
-################################################################################################################################
 #defnination of B4(INSTRUCTIONS/SUGGESTIONS)
 def B5fun(top):
     ins= Tk()
@@ -272,9 +222,6 @@ def B5fun(top):
     ins.resizable(False,False)
 
 
-
-
-
     ins.mainloop()
 
 #################################################################################################################################
@@ -283,7 +230,7 @@ def main_menu():
 
     top = Tk()
     top.geometry("400x400")
-    top.title("_MEDICAL INVENTORY MANAGMENT_")
+    top.title("_____MEDICAL DISPENSORY MANAGMENT_____")
     top.config(bg="#232528")
     L = Label(text="Following paths to visit:",font=("consolas bold",15),height=1,width=35,bg="#232528",fg="white",bd=0)
     L.place(x=20,y=5)
